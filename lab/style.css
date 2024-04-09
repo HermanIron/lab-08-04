@@ -1,0 +1,57 @@
+
+
+.oculto {
+  position: relative;
+  left: -10000px;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:larger;
+}
+
+main, figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+#textoMural{
+  width: 90%;
+}
+
+figure{
+  background-color: rgb(74, 117, 160);
+  width: 90%;
+}
+
+#fotos{
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+#contacto{
+  background-color: rgb(36, 85, 134);
+  width: 90%;
+  padding: 20px;
+}
+
+input, textarea{
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
